@@ -12,7 +12,7 @@ const CalorieType = new GraphQLObjectType({
 });
 
 const CalorieQueryFields = {
-  calorie: {
+  caloriesFromUser: {
     type: new GraphQLList(CalorieType),
     args: { userId: { type: GraphQLString } },
     resolve(_parent, { userId }) {
