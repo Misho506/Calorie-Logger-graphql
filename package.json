@@ -1,0 +1,29 @@
+{
+  "name": "calorie-logger-graphql",
+  "version": "1.0.0",
+  "description": "Is a project to Logger the calories per meal and show a graphic with all the info about the calories per day, week or month. This project I want to developed with NodeJs, Express, MongoDB and Graphql",
+  "main": "app.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Misho506/Calorie-Logger-graphql.git"
+  },
+  "author": "Mauricio Lopez Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Misho506/Calorie-Logger-graphql/issues"
+  },
+  "homepage": "https://github.com/Misho506/Calorie-Logger-graphql#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.9.0",
+    "mongoose": "^8.5.4"
+  }
+}
